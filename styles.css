@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 2px 5px;
+}
+
+.right-column {
+  width: 80%;
+  background-color: #ddd;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 2px 5px 2px 0px;
+}
+#main-title{
+    text-align: center;
+}
