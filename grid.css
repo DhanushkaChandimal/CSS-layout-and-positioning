@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    gap: 10px;
+}
+
+.grid-container div {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+#row-column-values {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+
+#grid-template-columns {
+    grid-template-columns: 1fr 2fr 3fr;
+}
