@@ -16,6 +16,13 @@
     /* margin: 10px; */
 }
 
+.red-box {
+    background-color: rgb(226, 56, 56);
+    padding: 20px;
+    border: 1px dotted rgb(255, 0, 0);
+    /* margin: 10px; */
+}
+
 .box2 {
     background-color: lightblue;
     padding: 40px 20px;
@@ -27,8 +34,16 @@
     flex-direction: row;
 }
 
+#flex-row-reverse{
+    flex-direction: row-reverse;
+}
+
 #flex-column{
     flex-direction: column;
+}
+
+#flex-column-reverse{
+    flex-direction: column-reverse;
 }
 
 #flex-start{
@@ -78,4 +93,20 @@
 #wrap-gap{
     flex-wrap: wrap;
     gap: 10px 40px; /* column-gap row-gap*/
+}
+
+#wrap{
+    flex-wrap: wrap;
+}
+
+#wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+#order-5{
+    order: 5;
+}
+
+#order-2{
+    order: -2;
 }
